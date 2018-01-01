@@ -1,0 +1,45 @@
+{
+	"name": "ciptohadi-web-id/lumen-notifications",
+	"type": "library",
+	"description": "A useful wrapper around Laravel Notifications that support its artisan command",
+	"keywords": [
+		"lumen",
+		"laravel",
+		"notifications",
+		"laravel-notifications",
+		"lumen-notifications",
+		"wrapper"
+	],
+	"homepage": "https://github.com/ciptohadi-web-id/lumen-notifications",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Cipto Hadi",
+			"email": "ciptohadi79@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"LumenNotifications\\": "src/"
+		}
+	},
+	"require": {
+		"php": ">=5.6.4",
+		"illuminate/notifications": "^5.5",
+		"illuminate/mail": "^5.5",
+		"guzzlehttp/guzzle": "^6.2"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~5.0"
+	},
+	"autoload-dev": {
+		"classmap": [
+			"tests/"
+		],
+		"psr-4": {
+			"LumenNotifications\\": "src/"
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
