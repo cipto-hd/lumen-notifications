@@ -1,6 +1,5 @@
 <?php
-
-namespace LumenNotifications\Commands;
+namespace ciptohadi\LumenNotifications\Commands;
 
 use Illuminate\Console\GeneratorCommand;
 use Symfony\Component\Console\Input\InputOption;

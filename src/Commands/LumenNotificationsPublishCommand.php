@@ -1,5 +1,5 @@
 <?php
-namespace LumenNotifications\Commands;
+namespace ciptohadi\LumenNotifications\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;

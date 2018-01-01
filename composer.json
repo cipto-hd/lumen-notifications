@@ -15,12 +15,13 @@
 	"authors": [
 		{
 			"name": "Cipto Hadi",
-			"email": "ciptohadi79@gmail.com"
+			"email": "ciptohadi79@gmail.com",
+			"homepage": "https://ciptohadi.web.id/"
 		}
 	],
 	"autoload": {
 		"psr-4": {
-			"LumenNotifications\\": "src/"
+			"ciptohadi\\LumenNotifications\\": "src/"
 		}
 	},
 	"require": {
@@ -37,7 +38,7 @@
 			"tests/"
 		],
 		"psr-4": {
-			"LumenNotifications\\": "src/"
+			"ciptohadi\\LumenNotifications\\": "src/"
 		}
 	},
 	"minimum-stability": "dev",

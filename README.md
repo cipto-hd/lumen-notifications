@@ -1,6 +1,8 @@
 # Laravel 5.5 Notification for Lumen 5.x #
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/ciptohadi-web-id/lumen-notifications.svg?style=flat-square)](https://packagist.org/packages/ciptohadi-web-id/lumen-notifications)
+[![Total Downloads on Packagist](https://img.shields.io/packagist/dt/ciptohadi-web-id/lumen-notifications.svg?style=flat-square)](https://packagist.org/packages/ciptohadi-web-id/lumen-notifications)
 
 This package is a wrapper of [Laravel Notification](https://laravel.com/docs/5.3/notifications) adapted to work with Lumen 5.x
 
@@ -29,7 +31,7 @@ Or edit the `composer.json` file as seen below and then run `composer update`:
 
 After that, register the package in the section "Register Service Providers" in `bootstrap/app.php`
 
-	$app->register(\LumenNotifications\LumenNotificationsServiceProvider::class);
+	$app->register(\ciptohadi\LumenNotifications\LumenNotificationsServiceProvider::class);
 	
 
 ## Usage

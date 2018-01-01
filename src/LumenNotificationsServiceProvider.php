@@ -1,5 +1,5 @@
 <?php
-namespace LumenNotifications;
+namespace ciptohadi\LumenNotifications;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Notifications\Console\NotificationTableCommand;
@@ -56,8 +56,8 @@ class LumenNotificationsServiceProvider extends ServiceProvider
     protected function registerCommands()
     {
         $this->commands(\Illuminate\Notifications\Console\NotificationTableCommand::class);
-        $this->commands(\LumenNotifications\Commands\LumenNotificationsPublishCommand::class);
-        $this->commands(\LumenNotifications\Commands\LumenNotificationsMakeCommand::class);
+        $this->commands(\ciptohadi\LumenNotifications\Commands\LumenNotificationsPublishCommand::class);
+        $this->commands(\ciptohadi\LumenNotifications\Commands\LumenNotificationsMakeCommand::class);
     }
 
     /**
