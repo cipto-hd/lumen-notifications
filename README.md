@@ -39,7 +39,7 @@ After registering the Service Provider, we'll have access to three new artisan c
 
 To create a new notification, you can run below command:
  
-	php artisan make:notification
+	php artisan make:notification [notification-name]
 	
 To create database migration for notifications, you can run below command
  
@@ -73,6 +73,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 ## Credits
 
 - [Cipto Hadi](https://github.com/ciptohadi-web-id)
+- Inspired by [lab123it/lumen-notification](https://github.com/lab123it/lumen-notification)
 
 ## License
 
