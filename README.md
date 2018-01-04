@@ -9,7 +9,7 @@
 
 [![Twitter](https://img.shields.io/twitter/url/https/github.com/ciptohadi-web-id/lumen-notifications.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fciptohadi-web-id%2Flumen-notifications)
 
-This package is a wrapper of [Laravel Notification](https://laravel.com/docs/5.3/notifications) adapted to work with Lumen 5.x
+This package is a wrapper around [Laravel Notifications](https://laravel.com/docs/5.3/notifications) package, that enable it to work with Lumen 5.x
 
 ## Contents
 
