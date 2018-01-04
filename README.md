@@ -24,33 +24,33 @@ This package is a wrapper around [Laravel Notifications](https://laravel.com/doc
 
 ## Installation ##
 
-To install the packge, run below command in terminal:
+To install the packge, we can run below command in terminal:
 
 	composer require ciptohadi-web-id/lumen-notifications
 
-After that, register the package in the section "Register Service Providers" in `bootstrap/app.php`
+After that, we should register the package in the section "Register Service Providers" in `bootstrap/app.php`
 
 	$app->register(\ciptohadi\LumenNotifications\LumenNotificationsServiceProvider::class);
 	
 
 ## Usage
 
-After registering the Service Provider, we'll have access to three new artisan commands, as shown below:
+After registering the Service Provider, we will have access to three new artisan commands, as shown below:
 
-To create a new notification, you can run below command:
+To create a new notification, we run below command:
  
 	php artisan make:notification [notification-name]
 	
-To create database migration for notifications, you can run below command
+To create database migration for notifications, we run below command
  
 	php artisan notifications:table
 	
 
-To use the views from Laravel Notifications, you can run below command:
+To use the views from Laravel Notifications, we run below command:
 
 	php artisan lumen-notifications:publish
 	
-### To more information how to use Notifications: [Laravel Notifications](https://laravel.com/docs/5.5/notifications) ###
+### More information on how to use Laravel Notifications, we can consult wonderful Laravel documentation: [Laravel Notifications](https://laravel.com/docs/notifications) ###
 
 ## Changelog
 
@@ -72,7 +72,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Credits
 
-- [Cipto Hadi](https://github.com/ciptohadi-web-id)
+- [Cipto Hadi](https://ciptohadi.web.id)
 - Inspired by [lab123it/lumen-notification](https://github.com/lab123it/lumen-notification)
 
 ## License
